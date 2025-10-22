@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  #contenedor{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom,   #f8e7f9);
+    width:100%;
+    color: rgb(13, 14, 14);
+    margin: 0 auto;
+  }
+
+  
+  /* 🔝 Navbar fija y pegada arriba */
+  .navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #543D8D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    margin: 0 auto;
+  }
+
+  /* 🖼️ Logo */
+  .logo img {
+    height: 70px;
+  }
+  
+  /* 📋 Menú */
+  #menu nav ul {
+    display: flex;
+    justify-content: right;
+  }
+  
+  #menu nav ul li a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+  }
+  
+  #menu nav ul li a:hover {
+    color: rgb(221, 162, 230);
+    border-radius: 4px;
+  }
+  
+  /* 📦 Contenedor general del contenido */
+
+  
+  /* 📝 Título */
+  h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+      padding: 20px 0 0;
+  }
+  
+  /* 📋 Formulario */
+  .formcontainer {
+    border: 1px solid rgb(173, 9, 249);
+    padding: 20px;
+    border-radius: 10px;
+    
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+
+  
+  width: 60%;         /* más ancho (puedes cambiar 60% a 70% o 80%) */
+  max-width: 700px;   /* evita que se haga muy grande en pantallas grandes */
+  margin: 0 auto;     /* mantiene el formulario centrado */
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(234, 55, 55, 0.1);
+}
+  
+  
+  .formgroup {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .formgroupfield {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 25px;
+    margin-bottom: 4px;
+  }
+  
+ 
+
+.formcontainer {
+  max-width: 600px;     /* ancho del formulario */
+  margin: 50px auto;    /* centrado y separación */
+  padding: 50px 40px;   /* da altura al cuadro sin agrandar inputs */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(135, 46, 46, 0.1);
+}
+
+/* Campos (inputs y textarea) tamaño normal */
+input,
+.textarea {
+  width: 100%;
+  padding: 20px;        /* tamaño interno normal */
+  margin-bottom: 20px;  /* espacio entre campos */
+  border: 1px solid #404040;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+/* Ajuste especial solo al textarea (más alto pero moderado) */
+.formulario textarea {
+  height: 100px;
+  resize: none; /* evita que el usuario cambie tamaño */
+}
+
+/* Botón */
+.formulario button {
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.formulario button:hover {
+  background-color: #580c9c;
+}
+
+
+
+
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    background-color: #543D8D;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    width: fit-content;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+    height: 60px;
+    width: 120px;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    background-color:#543D8D;
+  }
+  
+  /* 📱 WhatsApp flotante */
+  .whastapp {
+    bottom: 30px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 320px;
+    margin: 30px;
+  }
+  
+  .whastapp:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  }
+  
+  .whastapp img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .whastapp p {
+    margin: 2px 0;
+    font-size: 25px;
+  }
+  
+  #footer{width:100%;
+    padding: 0 0 0 750px;
+    height:280px;
+    background-color:   #543D8D;
+    clear: both;
+    text-align: center;}
+
+#logob{width: 400px;
+    height:150px;
+    float: left;
+    margin: 60px 25px 0 0;
+  }
+
+#contacto{width: 400px;
+    height:150px;
+    float: left; 
+     margin: 40px 20px 0 0;
+  }
+  .h2l{
+    color: aliceblue;
+    font-size: 20px;
+  }
+.h21{
+    color: aliceblue;
+}
+  

@@ -1,0 +1,209 @@
+/* Hero (encabezado con imagen) */
+.hero {
+  background: url('imagenes/mujer.jpg') no-repeat center center/cover;
+  height: 80vh;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Valores */
+.valores .valor-box {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 30px 20px;
+  transition: 0.3s;
+  height: 310px;
+}
+.valores .valor-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.valores i {
+  font-size: 40px;
+  color: #c0392b;
+  margin-bottom: 15px;
+}
+
+/* Misión, Visión, Objetivos */
+.mision-vision {
+  background-color: #f8f9fa;
+  width: 100%;
+  height:1100px ;
+
+}
+.mision-vision .titulo-seccion {
+  color: #4b2ca8;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 40px;
+  position: relative;
+
+}
+.mision-vision .titulo-seccion::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 3px;
+  background-color: #f8f9fa;
+  margin-top: 8px;
+}
+.mision-vision p, .mision-vision li {
+  color: #333;
+  font-size: 24px;
+  line-height: 1.6;
+}
+.mision-vision ul {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+
+
+
+*{margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+
+#contenedor{width:100%;
+    height:2000px;
+    background-color: #f8e7f9;
+margin: 0 auto;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #543D8D;
+    padding: 10px  120px 10px 10px;
+    font-size: 29px;
+}
+.logo img{
+height: 110px;
+padding: 0 0 0 50px;
+}
+
+#menu nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+#menu nav ul li a{ 
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+    padding: 20px; 
+    font-size: 30px;
+}
+
+#menu nav ul li a:hover{
+ color :#f8e7f9;
+  border-radius: 4px;   
+}
+
+
+
+
+  
+
+  .card {
+    background-color: #662b8a;
+    width: 1200px;
+    height: 1600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+  }
+
+  .card img {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+  }
+
+  .card h3 {
+    margin: 30px 0 5px;
+    font-size: 45px;
+    color: #060000;
+  }
+
+  .card p {
+    font-size: 34px;
+    color: #070707;
+    padding: 0 55px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:left;
+
+
+  }
+
+
+
+  #footer{width:100%;
+    padding: 0 0 0 700px;
+    height:320px;
+    background-color:  #543D8D;
+    clear: both;
+    text-align: center;
+margin-top: 120px;}
+
+#logob{width: 400px;
+    height:150px;
+    float: left;
+    margin: 60px 25px 0 0;
+  }
+
+#contacto{width: 400px;
+    height:150px;
+    float: left; 
+     margin: 40px 20px 0 0;
+  }
+  .h2l{
+    color: aliceblue;
+    font-size: 20px;
+  }
+.h21{
+    color: aliceblue;
+}
+
+   .actualizacion {
+  text-align: center;
+  padding: 2px 0;
+  color: white;
+  font-size: 14px;
+  background-color: #543D8D; /* mismo color que el footer */
+
+  font-size: 18px;
+height: 40px;
+}

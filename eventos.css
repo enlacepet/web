@@ -1,0 +1,170 @@
+
+*{margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+#contenedor{width:100%;
+    height:100%;
+    background-color:  #f7d6f9;
+margin: 0 auto;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #543D8D;
+    padding: 10px  120px 10px 10px;
+    font-size: 29px;
+}
+.logo img{
+height: 110px;
+padding: 0 0 0 50px;
+}
+
+#menu nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+#menu nav ul li a{ 
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+    padding: 20px; 
+    font-size: 30px;
+}
+
+#menu nav ul li a:hover{
+ color :#f8e7f9;
+  border-radius: 4px;   
+}
+
+
+
+.boton-evento {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.boton-evento a {
+  background-color: #4b2d7f; /* color morado de Enlace Pet */
+  color: white;
+  padding: 10px 50px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+  font-size: 20px;
+}
+
+.boton-evento a:hover {
+  background-color: #6a3eb0; /* tono más claro al pasar el cursor */
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+
+  h1 {
+    margin-top: 40px;
+    font-size: 70px;
+    color: #333;
+  }
+#unete{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin: 40px auto;
+
+    padding: 0 10px;
+  }
+
+  .card {
+    background-color: white;
+    width: 1800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    height: 1220px;
+    
+
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+  }
+
+  .card img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+  }
+
+  .card h2 {
+    margin: 19px 0 10px;
+    font-size: 45px;
+    color: #222;
+  }
+
+  .card p {
+    font-size: 28px;
+    color: #323232;
+    padding: 0 40px 40px;
+    text-align: left;
+  }
+
+
+
+  
+#footer{width:100%;
+            padding:0 650px;
+            height:300px;
+            background-color: #543D8D;
+            clear: both;
+            text-align: center;}
+        
+        #logob{width: 400px;
+            height:150px;
+            float: left;
+            margin: 60px 60px 0 60px;
+          }
+        
+        #contacto{width: 400px;
+            height:150px;
+            float: left; 
+             margin: 40px 20px 0 0;
+          }
+          .h2l{
+            color: aliceblue;
+            font-size: 20px;
+          }
+        .h21{
+            color: aliceblue;
+        }
+.actualizacion {
+  text-align: center;
+  padding: 2px 0;
+  color: white;
+  font-size: 14px;
+  background-color: #543D8D; /* mismo color que el footer */
+
+  font-size: 18px;
+height: 40px;
+}

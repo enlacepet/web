@@ -1,0 +1,141 @@
+
+*{margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+body {
+  background: linear-gradient(to right, #eac5f9, #ffe6b3);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #090909;
+  font-size: 50px;
+}
+
+*{margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;}
+
+
+#contenedor{width:100%;
+    height:1600px;
+    background-color: #e9d2f7;
+margin: 0 auto;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #543D8D;
+    padding: 10px  120px 10px 10px;
+    font-size: 29px;
+}
+.logo img{
+height: 110px;
+padding: 0 0 0 50px;
+}
+
+#menu nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+#menu nav ul li a{ 
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+    padding: 20px; 
+    font-size: 30px;
+}
+
+#menu nav ul li a:hover{
+ color :#f8e7f9;
+  border-radius: 4px;   
+}
+
+
+
+/* Tarjetas */
+.card {
+  max-width: 1800px;
+  height: 400px;
+  margin: 20px auto;
+  background-color:rgb(249, 242, 253);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+
+.card img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+background-color: #543D8D;
+  padding:5px;
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Efecto al pasar el mouse */
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+
+}
+
+ #footer{width:100%;
+            padding:0 650px;
+            height:325px;
+            background-color: #543D8D;
+            clear: both;
+            text-align: center;}
+        
+        #logob{width: 400px;
+            height:150px;
+            float: left;
+            margin: 60px 60px 0 60px;
+          }
+        
+        #contacto{width: 400px;
+            height:150px;
+            float: left; 
+             margin: 40px 20px 0 0;
+          }
+          .h2l{
+            color: aliceblue;
+            font-size: 20px;
+          }
+        .h21{
+            color: aliceblue;
+        }
+
+
+
+
+   .actualizacion {
+  text-align: center;
+  padding: 2px 0;
+  color: white;
+  font-size: 14px;
+  background-color: #543D8D; /* mismo color que el footer */
+
+  font-size: 18px;
+height: 40px;
+}
